@@ -20,7 +20,6 @@
 		D45F533C1B0B578400D7C618 /* Snake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D45F53361B0B578400D7C618 /* Snake.cpp */; };
 		D45F533D1B0B578400D7C618 /* Spider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D45F53381B0B578400D7C618 /* Spider.cpp */; };
 		D473AB6F1B04510100D1213B /* GameScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D473AB6D1B04510100D1213B /* GameScreen.cpp */; };
-		D48D40DA1B734F2400318B70 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D40D91B734F2400318B70 /* GoogleMobileAds.framework */; };
 		D48D40DD1B73506400318B70 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D40DC1B73506400318B70 /* AdSupport.framework */; };
 		D48D40DF1B73507200318B70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D40DE1B73507200318B70 /* AVFoundation.framework */; };
 		D48D40E11B73507A00318B70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48D40E01B73507A00318B70 /* CoreGraphics.framework */; };
@@ -61,6 +60,13 @@
 		D4B833C41DF365670037031B /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B833BB1DF365670037031B /* iRate.m */; };
 		D4B833C51DF365670037031B /* LauncherOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4B833BD1DF365670037031B /* LauncherOS.mm */; };
 		D4B833C61DF365670037031B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B833BE1DF365670037031B /* Main.storyboard */; };
+		D4B833D61DF36A4B0037031B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B833D41DF369200037031B /* GoogleMobileAds.framework */; };
+		D4B833DF1DF36CF90037031B /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = D4B833D91DF36CF90037031B /* image_helper.c */; };
+		D4B833E01DF36CF90037031B /* SOIL.c in Sources */ = {isa = PBXBuildFile; fileRef = D4B833DB1DF36CF90037031B /* SOIL.c */; };
+		D4B833E11DF36CF90037031B /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = D4B833DD1DF36CF90037031B /* stb_image_aug.c */; };
+		D4B833E41DF36DC40037031B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B833E31DF36DC40037031B /* CoreMotion.framework */; };
+		D4B833E61DF36E0D0037031B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B833E51DF36E0D0037031B /* MediaPlayer.framework */; };
+		D4B833E81DF36E300037031B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B833E71DF36E300037031B /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,7 +92,6 @@
 		D45F53391B0B578400D7C618 /* Spider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spider.h; sourceTree = "<group>"; };
 		D473AB6D1B04510100D1213B /* GameScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScreen.cpp; sourceTree = "<group>"; };
 		D473AB6E1B04510100D1213B /* GameScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreen.h; sourceTree = "<group>"; };
-		D48D40D91B734F2400318B70 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../../GoogleMobileAdsSdkiOS-7.4.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		D48D40DC1B73506400318B70 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D48D40DE1B73507200318B70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D48D40E01B73507A00318B70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -168,6 +173,17 @@
 		D4B833CF1DF365850037031B /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../../Cross/Events/Event.h; sourceTree = "<group>"; };
 		D4B833D01DF365850037031B /* FastDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FastDelegate.h; path = ../../Cross/Events/FastDelegate.h; sourceTree = "<group>"; };
 		D4B833D11DF365850037031B /* FastDelegateBind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FastDelegateBind.h; path = ../../Cross/Events/FastDelegateBind.h; sourceTree = "<group>"; };
+		D4B833D21DF368CB0037031B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../Dev/GoogleMobileAdsSdkiOS-7.15.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		D4B833D41DF369200037031B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../../../Dev/GoogleMobileAdsSdkiOS-7.15.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		D4B833D91DF36CF90037031B /* image_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = image_helper.c; path = ../../Cross/SOIL/image_helper.c; sourceTree = "<group>"; };
+		D4B833DA1DF36CF90037031B /* image_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = image_helper.h; path = ../../Cross/SOIL/image_helper.h; sourceTree = "<group>"; };
+		D4B833DB1DF36CF90037031B /* SOIL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SOIL.c; path = ../../Cross/SOIL/SOIL.c; sourceTree = "<group>"; };
+		D4B833DC1DF36CF90037031B /* SOIL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SOIL.h; path = ../../Cross/SOIL/SOIL.h; sourceTree = "<group>"; };
+		D4B833DD1DF36CF90037031B /* stb_image_aug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stb_image_aug.c; path = ../../Cross/SOIL/stb_image_aug.c; sourceTree = "<group>"; };
+		D4B833DE1DF36CF90037031B /* stb_image_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image_aug.h; path = ../../Cross/SOIL/stb_image_aug.h; sourceTree = "<group>"; };
+		D4B833E31DF36DC40037031B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D4B833E51DF36E0D0037031B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D4B833E71DF36E300037031B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,19 +191,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B833E81DF36E300037031B /* MobileCoreServices.framework in Frameworks */,
+				D4B833E61DF36E0D0037031B /* MediaPlayer.framework in Frameworks */,
+				D4B833E41DF36DC40037031B /* CoreMotion.framework in Frameworks */,
+				D48D40E31B73508300318B70 /* CoreMedia.framework in Frameworks */,
+				D48D40DF1B73507200318B70 /* AVFoundation.framework in Frameworks */,
+				D4B833D61DF36A4B0037031B /* GoogleMobileAds.framework in Frameworks */,
 				D48D40EB1B7350A700318B70 /* StoreKit.framework in Frameworks */,
 				D48D40EF1B7350D700318B70 /* MessageUI.framework in Frameworks */,
 				D48D40ED1B7350AE00318B70 /* SystemConfiguration.framework in Frameworks */,
 				D48D40E91B7350A000318B70 /* EventKitUI.framework in Frameworks */,
 				D48D40E71B73509D00318B70 /* EventKit.framework in Frameworks */,
 				D48D40E51B73509600318B70 /* CoreTelephony.framework in Frameworks */,
-				D48D40E31B73508300318B70 /* CoreMedia.framework in Frameworks */,
 				D48D40E11B73507A00318B70 /* CoreGraphics.framework in Frameworks */,
-				D48D40DF1B73507200318B70 /* AVFoundation.framework in Frameworks */,
 				D48D40DD1B73506400318B70 /* AdSupport.framework in Frameworks */,
 				D438E25C1AFB630C0015EC19 /* GLKit.framework in Frameworks */,
 				D438E25A1AFB628F0015EC19 /* AudioToolbox.framework in Frameworks */,
-				D48D40DA1B734F2400318B70 /* GoogleMobileAds.framework in Frameworks */,
 				D438E2581AFB628A0015EC19 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,12 +217,13 @@
 		D438E1A71AFB61740015EC19 = {
 			isa = PBXGroup;
 			children = (
+				D4B833D41DF369200037031B /* GoogleMobileAds.framework */,
+				D4B833D21DF368CB0037031B /* GoogleMobileAds.framework */,
 				D48D40DB1B73503F00318B70 /* Dependencies */,
 				D48D40EA1B7350A700318B70 /* StoreKit.framework */,
 				D438E25B1AFB630C0015EC19 /* GLKit.framework */,
 				D438E2591AFB628F0015EC19 /* AudioToolbox.framework */,
 				D438E2571AFB628A0015EC19 /* OpenGLES.framework */,
-				D48D40D91B734F2400318B70 /* GoogleMobileAds.framework */,
 				D438E2551AFB626F0015EC19 /* Assets */,
 				D4B833741DF364FF0037031B /* Cross */,
 				D438E1D91AFB61EA0015EC19 /* Jim the Snake */,
@@ -212,6 +232,7 @@
 				D438E1B51AFB61740015EC19 /* main.m */,
 				D4B251A41B4EA137008BB79B /* cross.cpp */,
 				D41059501B0EFB3D00B4D0D7 /* icon.xcassets */,
+				D4B833E21DF36DC40037031B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -272,6 +293,7 @@
 		D4B833741DF364FF0037031B /* Cross */ = {
 			isa = PBXGroup;
 			children = (
+				D4B833D81DF36CE50037031B /* SOIL */,
 				D4B833981DF365470037031B /* Utils */,
 				D4B833961DF3652A0037031B /* Platform */,
 				D4B833951DF365200037031B /* FMOD */,
@@ -378,6 +400,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D4B833D81DF36CE50037031B /* SOIL */ = {
+			isa = PBXGroup;
+			children = (
+				D4B833D91DF36CF90037031B /* image_helper.c */,
+				D4B833DA1DF36CF90037031B /* image_helper.h */,
+				D4B833DB1DF36CF90037031B /* SOIL.c */,
+				D4B833DC1DF36CF90037031B /* SOIL.h */,
+				D4B833DD1DF36CF90037031B /* stb_image_aug.c */,
+				D4B833DE1DF36CF90037031B /* stb_image_aug.h */,
+			);
+			name = SOIL;
+			sourceTree = "<group>";
+		};
+		D4B833E21DF36DC40037031B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4B833E71DF36E300037031B /* MobileCoreServices.framework */,
+				D4B833E51DF36E0D0037031B /* MediaPlayer.framework */,
+				D4B833E31DF36DC40037031B /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -450,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B833A81DF365540037031B /* Button.cpp in Sources */,
+				D4B833DF1DF36CF90037031B /* image_helper.c in Sources */,
 				D4B8338A1DF3650A0037031B /* Audio.cpp in Sources */,
 				D4B8338C1DF3650A0037031B /* Config.cpp in Sources */,
 				D4B833C51DF365670037031B /* LauncherOS.mm in Sources */,
@@ -474,10 +520,12 @@
 				D4B833A91DF365540037031B /* Commercial.cpp in Sources */,
 				D4B833C01DF365670037031B /* CommercialOS.mm in Sources */,
 				D45F533D1B0B578400D7C618 /* Spider.cpp in Sources */,
+				D4B833E01DF36CF90037031B /* SOIL.c in Sources */,
 				D4B833C21DF365670037031B /* CrossViewController.m in Sources */,
 				D42EF9FE1B2597BE0008C0DB /* JimTheSnake.cpp in Sources */,
 				D4B833BF1DF365670037031B /* AppDelegate.m in Sources */,
 				D4B833C41DF365670037031B /* iRate.m in Sources */,
+				D4B833E11DF36CF90037031B /* stb_image_aug.c in Sources */,
 				D4B833C11DF365670037031B /* CrossView.mm in Sources */,
 				D4B833901DF3650A0037031B /* Input.cpp in Sources */,
 				D45F533A1B0B578400D7C618 /* Apple.cpp in Sources */,
@@ -578,12 +626,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = AQNAZWX3GB;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mouse/Dev/GoogleMobileAdsSdkiOS-7.4.0",
+					"/Users/mouse/Dev/GoogleMobileAdsSdkiOS-7.15.0",
 				);
 				INFOPLIST_FILE = "Jim the Snake/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = $PROJECT_DIR;
 				OTHER_LDFLAGS = "-lfmod_$PLATFORM_NAME";
@@ -600,12 +649,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = AQNAZWX3GB;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mouse/Dev/GoogleMobileAdsSdkiOS-7.4.0",
+					"/Users/mouse/Dev/GoogleMobileAdsSdkiOS-7.15.0",
 				);
 				INFOPLIST_FILE = "Jim the Snake/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = $PROJECT_DIR;
 				OTHER_LDFLAGS = "-lfmod_$PLATFORM_NAME";
